@@ -55,5 +55,123 @@ img {
   }
 
   body{
-      min-height: 100vh;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
   }
+
+  .container{
+      max-width: 1080px;
+      padding: 0 10px;
+      margin: 0 auto;
+  }
+
+  .container__footer{
+      max-width: 1300px;
+      padding: 0 10px;
+      margin: 0 auto;
+  }
+
+  .btn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 47px;
+    background-color: #00AFDB;
+    display: inline-block;
+  }
+
+  .title{
+      
+  }
+
+
+  /* HEADER */
+
+  .header{
+    background-image: url(../images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+
+  .header__top-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__top-list li + li{
+    margin-left: 83px;
+    padding: 0 18px;
+  }
+
+  .header__top-list-item-logo{
+    margin: 25px 0;
+  }
+
+  .header__top-link{
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+
+  .header__top-link:hover{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 5px;
+  }
+
+  .header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 136px 0 20px;
+  }
+
+  .header__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    max-width: 504px;
+    margin: 0 auto 20px; 
+  }
+
+  .header__content-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .header__content-link{
+      margin-bottom: 183px;
+  }
+  
+  .header__content-list li + li{
+      margin-left: 30px;
+  }
+
+
+
